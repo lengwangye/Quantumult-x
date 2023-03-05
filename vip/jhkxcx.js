@@ -8,15 +8,23 @@
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 
+/******************************
+
+自己本地解锁
+
 *******************************
 
 [rewrite_local]
-^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhkxcx.js
+
+^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhkxcx.js
+
 [mitm] 
+
 hostname = pro.jiahk.cn
 
 
-*******************************/
+*************************************/
+
 
 var objc = JSON.parse($response.body);
 
@@ -40,6 +48,7 @@ var objc = JSON.parse($response.body);
   },
   "code" : 200
 }
+
 
 
 $done({body : JSON.stringify(objc)});
