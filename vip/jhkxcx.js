@@ -16,7 +16,7 @@
 
 [rewrite_local]
 
-^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhkxcx.js
+^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhkxcx.js
 
 [mitm] 
 
