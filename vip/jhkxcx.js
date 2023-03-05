@@ -11,7 +11,7 @@
 *******************************
 
 [rewrite_local]
-^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url script-response-body 自己命名.js
+^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhkxcx.js
 [mitm] 
 hostname = pro.jiahk.cn
 
