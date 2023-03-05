@@ -11,12 +11,10 @@
 *******************************
 
 [rewrite_local]
-
-^https:\/\/prod\.jiahk\.cn\/api\/v1\/findUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
-^https:\/\/pro\.jiahk\.cn\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
+^https:\/\/pro\.jiahk\.cn:8021\/api\/index\/getUserInfo url script-response-body 自己命名.js
 [mitm] 
+hostname = pro.jiahk.cn
 
-hostname = https://pro.jiahk.cn
 
 *******************************/
 
