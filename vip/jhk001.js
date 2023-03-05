@@ -13,7 +13,7 @@
 [rewrite_local]
 
 ^https:\/\/prod\.jiahk\.cn\/api\/v1\/findUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
-^https:\/\/pro\.jiahk\.cn\/:8021\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
+^https:\/\/pro\.jiahk\.cn\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
 [mitm] 
 
 hostname = https://pro.jiahk.cn
@@ -28,7 +28,7 @@ var objc = JSON.parse($response.body);
   "data" : {
     "userTypeName" : "成为会员",
     "userType" : 1,
-    "isVip" : true,
+    "isVip" : 1,
     "isShowIosVip" : true,
     "activeMemberCardId" : 1,
     "openid" : "oAmqG5EU3s4CVLYyU-YvUq0opGMQ",
