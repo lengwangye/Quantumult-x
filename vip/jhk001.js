@@ -28,7 +28,7 @@ var objc = JSON.parse($response.body);
   "data" : {
     "userTypeName" : "成为会员",
     "userType" : 1,
-    "isVip" : 1,
+    "isVip" : true,
     "isShowIosVip" : true,
     "activeMemberCardId" : 1,
     "openid" : "oAmqG5EU3s4CVLYyU-YvUq0opGMQ",
@@ -37,7 +37,7 @@ var objc = JSON.parse($response.body);
     "nickName" : "加画框用户",
     "excessDays" : null,
     "userSn" : "5168735",
-    "isExpires" : 0,
+    "isExpires" : 4076366362000,
     "headImgUrl" : "https://oss.jiahk.cn/static/img/default-header-icon.png"
   },
   "code" : 200
