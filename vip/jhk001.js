@@ -16,7 +16,7 @@
 ^https:\/\/pro\.jiahk\.cn\/:8021\/api\/index\/getUserInfo url script-response-body https://raw.githubusercontent.com/lengwangye/Quantumult-x/main/vip/jhk001.js
 [mitm] 
 
-hostname = https://pro.jiahk.cn:8021
+hostname = https://pro.jiahk.cn
 
 *******************************/
 
