@@ -1,0 +1,6 @@
+[General]
+title = 加画框VIP
+desc = 解锁加画框VIP功能，返回自定义JSON数据
+
+[Rewrite]
+^https://prod\.jiahk\.cn/api/v2/forty/findUserInfo$ https://raw.githubusercontent.com/lengwangye/Quantumult-x/refs/heads/main/vip/loonjhk.json
