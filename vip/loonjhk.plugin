@@ -1,6 +1,8 @@
-[General]
-title = 加画框VIP
-desc = 解锁加画框VIP功能，返回自定义JSON数据
+# 加画框 VIP 解锁插件
 
-[Rewrite]
-^https://prod\.jiahk\.cn/api/v2/forty/findUserInfo$ https://raw.githubusercontent.com/lengwangye/Quantumult-x/refs/heads/main/vip/loonjhk.json
+[Script]
+# 解锁加画框 VIP 功能
+http-response ^https:\/\/prod\.jiahk\.cn\/api\/v2\/forty\/findUserInfo$ script-path=https://raw.githubusercontent.com/your-username/loon-vip-plugin/main/loonjhk.js, requires-body=true, tag=加画框VIP解锁
+
+[MITM]
+hostname = prod.jiahk.cn
