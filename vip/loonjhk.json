@@ -1,0 +1,36 @@
+{
+  "msg": "成功",
+  "data": {
+    "loginStatus": 1,
+    "expire": false,
+    "nickName": "起风了",
+    "title": "VIP会员",
+    "userTypeName": "尊贵VIP会员",
+    "memberCardId": 12345,
+    "superVipEndTime": 4089878400,
+    "isVip": true,
+    "excessDays": 27375,
+    "channel": 1,
+    "vipEndTimeStr": "2099/12/31",
+    "vipEndTime": 4089878400,
+    "isNew": false,
+    "buttonText": "续费会员",
+    "userType": 1,
+    "loginMethod": 1,
+    "nextRenewTime": 4090478400,
+    "superMemberCardId": 67890,
+    "platform": 1,
+    "registerTime": 1735099739,
+    "subtitle": "VIP画框/场景/滤镜，超清保存任意用",
+    "headImgUrl": "https://oss.jiahk.cn/app_image/user_header_img/FAEEA88F-E761-4E10-B94A-BD497765E20E/2aa6d1b1c9732d8084f3b67aa0bdd08d",
+    "watermark": {
+      "standardWatermarkUrl": "https://oss.jiahk.cn/app/common/vip_watermark_700.png",
+      "highWatermarkUrl": "https://oss.jiahk.cn/app/common/vip_watermark_1500.png",
+      "superWatermarkUrl": "https://oss.jiahk.cn/app/common/vip_watermark_3000.png"
+    },
+    "subscribe": true,
+    "renewStatus": true,
+    "userId": 1973138
+  },
+  "code": 200
+}
