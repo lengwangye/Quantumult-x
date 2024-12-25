@@ -1,15 +1,31 @@
-// 解析返回的 JSON 数据
-var obj = JSON.parse($response.body);
+/*************************************
 
-// 修改用户数据，伪造为 VIP 状态
-obj.data = {
+项目名称：加画框 解锁VIP
+下载地址：https://t.cn/A6t6nFst
+脚本作者：自定义
+使用声明：⚠️仅供学习与交流，请勿转载与售卖！
+
+**************************************
+
+[rewrite_local]
+^https:\/\/prod\.jiahk\.cn\/api\/v2\/forty\/findUserInfo url script-response-body https://raw.githubusercontent.com/your-username/your-repo/main/jiahk.js
+
+[mitm]
+hostname = prod.jiahk.cn
+
+*************************************/
+
+var response = JSON.parse($response.body);
+
+// 修改用户数据为 VIP
+response.data = {
   "loginStatus": 1,
   "expire": false,
-  "nickName": "起风了",
+  "nickName": "VIP用户",
   "title": "至尊VIP会员",
   "userTypeName": "尊贵VIP用户",
   "memberCardId": 12345,
-  "superVipEndTime": 4102444800000, // 2100 年时间戳
+  "superVipEndTime": 4102444800000, // 2100年
   "isVip": true,
   "excessDays": 99999,
   "channel": 1,
@@ -35,5 +51,5 @@ obj.data = {
   "userId": 1973138
 };
 
-// 返回修改后的 JSON 数据
-$done({body: JSON.stringify(obj)});
+// 返回修改后的数据
+$done({body: JSON.stringify(response)});
